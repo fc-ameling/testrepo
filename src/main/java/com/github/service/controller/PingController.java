@@ -18,6 +18,6 @@ public class PingController {
 
     @GetMapping
     public String ping() {
-        return botToken + ":   - " + eurofxref;
+        return botToken + ":    " + eurofxref;
     }
 }
